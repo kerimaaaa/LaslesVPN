@@ -26,3 +26,6 @@ You can use it free or choose standard and premium package, where you can find a
 
 **Any questions?**
 You can find me @kerimaaaa
+
+The website:
+[LaslesVPN](https://kerimaaaa.github.io/LaslesVPN/)
