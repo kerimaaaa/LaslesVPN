@@ -250,7 +250,7 @@
     align-items: center;
     margin-top: 100px;
     height: 125px;
-    box-shadow: 0 30px 40px #dddddd;
+    box-shadow: 0 30px 40px -17px #dddddd;
     width: 1000px;
     height: 200px;
 }
@@ -296,11 +296,12 @@
 
 .features {
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     box-sizing: border-box;
+    background:#F6F6F6;
 
 }
 
@@ -514,6 +515,9 @@
    .images-main{
     width: 550px;
    } 
+    .location {
+    margin-top: 50px;
+}
 }
 
 
@@ -557,6 +561,8 @@
 }
 
 .testimonals__comment {
+    display: flex;
+    flex-direction: column;
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
@@ -565,8 +571,22 @@
     display: flex;
     border: 2px solid #ddd;
     width: 330px;
+    transition: 0.5;
+}
+.testimonals__comment:hover{
+    border: 2px solid #F53838;
+    cursor: pointer;
+}
+.testimonals__info {
+    display: flex;
+    flex-direction: row;
 }
 
+.testimonals__comment-ava {
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+}
 .testimonals__comment img {
     height: 40px;
     margin-left: 5px;
@@ -577,16 +597,25 @@
 .comment-country {
     color: #4F5665;
 }
-
+.comment-info {
+    margin-left: 20px;
+}
 .comment-content {
     line-height: 30px;
     color: #0B132A;
-
 }
-
+.comment-rate-container {
+    margin-left: 40px;
+    padding-top: 15px;
+}
 .comment-rating::after {
     content: url(images/start_icon.svg);
     margin-left: 10px;
+}
+.testimonals__btn__dots{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .testimonals__button{
     width: 60px;
@@ -595,16 +624,41 @@
     background: #fff;
     color: #F53838;
     border: 2px solid #F53838;
+       float: right;
+    margin-right: 150px;
+   transition: 0.5s;
 }
 .testimonals__button:hover{
     background-color: #F53838;
     color: #fff;
-    transition: 0.5s;
     cursor: pointer;
     box-shadow: 0px 25px 50px #f2bbbb;
 }
+.test-btn2{
+margin-right: 20px;
+}
 .fa-solid{
     font-size: 18px;
+}
+.testimonals__dot{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+width: 150px;
+margin-left: 80px;
+margin-top: 30px;
+}
+.testimoanls__pink-dot{
+    width: 30px;
+    height: 10px;
+    background-color: #F53838;
+    border-radius: 12px;
+}
+.testimoanls__gray-dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #DDE0E4;
 }
 @media (max-width:960px){
     .testimonals {
@@ -622,6 +676,9 @@
     
     .testimonals__comment {
         width: 400px;
+    }
+    .comment-rate-container {
+        margin-left: 120px;
     }
 }
 
@@ -644,8 +701,8 @@
     border: none;
     width: 1140px;
     height: 230px;
-    margin-left: 120px;
-    box-shadow: 0 30px 40px #dddddd;
+    margin-left: 70px;
+    box-shadow: 0 30px 40px -17px #dddddd;
     box-sizing: border-box;
     margin-top: 50px;
     z-index: 3;
@@ -719,7 +776,7 @@
 .footer {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     background: #F8F8F8;
 
 }
