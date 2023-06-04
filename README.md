@@ -28,4 +28,4 @@ You can use it free or choose standard and premium package, where you can find a
 You can find me @kerimaaaa
 
 The website:
-[LaslesVPN](https://kerimaaaa.github.io/LaslesVPN/)
+[LaslesVPN](https://kerimaaaa.github.io/neobis_front_LaslesVPN/)
